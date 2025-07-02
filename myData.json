@@ -1,0 +1,178 @@
+{
+  "personal": {
+    "name": "Rachel Anderson Dooley",
+    "title": "Full Stack Developer",
+    "location": "Chattanooga, TN",
+    "email": "rachelandersondooley@gmail.com",
+    "linkedin": "https://linkedin.com/in/rachelandersondooley",
+    "github": "https://github.com/rae1821",
+    "portfolio": "https://rachelandersondooley.com",
+    "summary": "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specialized in React, Node.js, and cloud technologies."
+  },
+
+  "skills": {
+    "programming_languages": [
+      { "name": "JavaScript", "proficiency": "Expert", "years_experience": 5 },
+      { "name": "Python", "proficiency": "Advanced", "years_experience": 3 },
+      { "name": "TypeScript", "proficiency": "Advanced", "years_experience": 2 }
+    ],
+    "frontend": [
+      { "name": "React", "proficiency": "Expert", "years_experience": 4 },
+      {
+        "name": "Vue.js",
+        "proficiency": "Intermediate",
+        "years_experience": 1
+      },
+      { "name": "HTML/CSS", "proficiency": "Expert", "years_experience": 5 }
+    ],
+    "backend": [
+      { "name": "Node.js", "proficiency": "Expert", "years_experience": 4 },
+      {
+        "name": "Express.js",
+        "proficiency": "Advanced",
+        "years_experience": 3
+      },
+      { "name": "Django", "proficiency": "Intermediate", "years_experience": 2 }
+    ],
+    "databases": [
+      { "name": "MongoDB", "proficiency": "Advanced", "years_experience": 3 },
+      {
+        "name": "PostgreSQL",
+        "proficiency": "Advanced",
+        "years_experience": 2
+      },
+      { "name": "Redis", "proficiency": "Intermediate", "years_experience": 1 }
+    ],
+    "tools_and_platforms": [
+      { "name": "AWS", "proficiency": "Advanced", "years_experience": 3 },
+      { "name": "Docker", "proficiency": "Advanced", "years_experience": 2 },
+      { "name": "Git", "proficiency": "Expert", "years_experience": 5 }
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "TechCorp Inc",
+      "position": "Senior Full Stack Developer",
+      "location": "San Francisco, CA",
+      "start_date": "2022-01",
+      "end_date": "present",
+      "description": "Lead development of customer-facing web applications serving 100K+ users",
+      "key_achievements": [
+        "Reduced application load time by 40% through performance optimization",
+        "Led migration to microservices architecture, improving system scalability",
+        "Mentored 3 junior developers and established code review processes"
+      ],
+      "technologies_used": ["React", "Node.js", "AWS", "MongoDB", "Docker"]
+    },
+    {
+      "company": "StartupXYZ",
+      "position": "Full Stack Developer",
+      "location": "San Francisco, CA",
+      "start_date": "2020-06",
+      "end_date": "2021-12",
+      "description": "Built MVP and core features for B2B SaaS platform from ground up",
+      "key_achievements": [
+        "Developed complete authentication and user management system",
+        "Implemented real-time notifications using WebSockets",
+        "Designed and built RESTful APIs serving mobile and web clients"
+      ],
+      "technologies_used": ["Vue.js", "Express.js", "PostgreSQL", "Redis"]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "E-commerce Analytics Dashboard",
+      "description": "Real-time analytics dashboard for e-commerce businesses to track sales, inventory, and customer behavior",
+      "status": "completed",
+      "start_date": "2023-03",
+      "end_date": "2023-06",
+      "github_url": "https://github.com/johndoe/ecommerce-dashboard",
+      "live_url": "https://analytics-demo.johndoe.dev",
+      "technologies": ["React", "D3.js", "Node.js", "MongoDB", "Socket.io"],
+      "key_features": [
+        "Real-time sales tracking with WebSocket connections",
+        "Interactive data visualizations using D3.js",
+        "Automated report generation and email notifications",
+        "Mobile-responsive design with offline capability"
+      ],
+      "challenges_solved": [
+        "Optimized database queries to handle large datasets efficiently",
+        "Implemented caching strategy to reduce API response times by 60%"
+      ],
+      "impact": "Helped 5 beta users increase their conversion rates by average of 15%"
+    },
+    {
+      "name": "AI-Powered Task Manager",
+      "description": "Smart task management app that uses AI to prioritize tasks and suggest optimal scheduling",
+      "status": "in_progress",
+      "start_date": "2023-09",
+      "end_date": null,
+      "github_url": "https://github.com/johndoe/ai-task-manager",
+      "live_url": null,
+      "technologies": [
+        "Next.js",
+        "OpenAI API",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "key_features": [
+        "Natural language task input processing",
+        "AI-powered priority scoring and scheduling suggestions",
+        "Integration with Google Calendar and Slack",
+        "Advanced analytics and productivity insights"
+      ],
+      "challenges_solved": [
+        "Implemented efficient prompt engineering for task categorization",
+        "Built robust error handling for AI API rate limits"
+      ],
+      "current_progress": "70% complete - working on calendar integration and mobile app"
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor of Science in Computer Science",
+      "start_date": "2016-08",
+      "end_date": "2020-05",
+      "gpa": "3.7/4.0",
+      "relevant_coursework": [
+        "Data Structures and Algorithms",
+        "Database Systems",
+        "Web Development",
+        "Machine Learning"
+      ]
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "AWS Certified Developer Associate",
+      "issuer": "Amazon Web Services",
+      "date_earned": "2022-08",
+      "credential_id": "AWS-DEV-123456",
+      "expires": "2025-08"
+    },
+    {
+      "name": "Google Cloud Professional Developer",
+      "issuer": "Google Cloud",
+      "date_earned": "2023-02",
+      "credential_id": "GCP-PRO-789012",
+      "expires": "2025-02"
+    }
+  ],
+
+  "interests": [
+    {
+      "category": "technical",
+      "items": ["Machine Learning", "Blockchain", "IoT", "Mobile Development"]
+    },
+    {
+      "category": "personal",
+      "items": ["Fashion", "Sewing", "Reading", "Haning with my son"]
+    }
+  ]
+}
