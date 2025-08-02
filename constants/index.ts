@@ -19,21 +19,69 @@ export const navLinks = [
 
 export const projects = [
   {
+    id: '1',
     title: 'Style Sync',
-    description: 'Where tech meets style.',
+    tagline: 'Where tech meets style.',
     imageUrl: 'lindas-produce.png',
-    link: '/project-one',
+    link: 'https://style-sync-xi.vercel.app/',
+    github: '',
+    description:
+      'A full-stack e-commerce platform that revolutionizes how users discover and purchase fashion items through AI-powered styling recommendations and virtual try-on technology.',
+    technologies: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'MongoDB',
+      'Tailwind CSS',
+      'Prisma',
+      'Auth.js',
+    ],
   },
   {
-    title: 'Project Two',
-    description: 'Description of project two.',
+    title: 'Lazy Girl Job Search',
+    tagline: 'A job search platform for the modern professional.',
     imageUrl: '/images/project2.jpg',
-    link: '/projects/project-two',
+    link: 'https://lazy-girl-job-search.vercel.app/',
+    github: 'https://github.com/Rae1821/lazy-girl-job-search',
+    description:
+      'A job search platform that simplifies the job hunting process with AI-driven resume recommendations and personalized job alerts.',
+    technologies: [
+      'React19',
+      'Next.js',
+      'TypeScript',
+      'MongoDB',
+      'Prisma',
+      'Tailwind CSS',
+      'Shadcn UI',
+    ],
   },
   {
-    title: 'Project Three',
-    description: 'Description of project three.',
+    title: 'Fitness Tracker',
+    tagline: 'Track your fitness journey with ease.',
     imageUrl: '/images/project3.jpg',
-    link: '/projects/project-three',
+    link: 'https://fitness-pro-nextjs.vercel.app/',
+    github: 'https://github.com/Rae1821/fitness-pro-nextjs',
+    description:
+      'A comprehensive fitness tracking app that allows users to log workouts, track progress, and set fitness goals with a user-friendly interface.',
+    technologies: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'MongoDB',
+      'Tailwind CSS',
+      'Mongoose',
+      'Auth.js',
+      'Shadcn UI',
+    ],
+  },
+  {
+    title: 'Thrasher Landing',
+    tagline: 'A central hub for a tightknit community.',
+    imageUrl: '/images/project4.jpg',
+    link: 'https://thrasherlanding.com',
+    github: 'https://github.com/Rae1821/thrasher-landing',
+    description:
+      'A central hub for a tightknit neighborhood homeowners association, featuring events, news, documents, and a directory of board members.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
   },
 ];

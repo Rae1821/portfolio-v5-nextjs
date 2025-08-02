@@ -7,13 +7,13 @@
     "linkedin": "https://linkedin.com/in/rachelandersondooley",
     "github": "https://github.com/rae1821",
     "portfolio": "https://rachelandersondooley.com",
-    "summary": "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specialized in React, Node.js, and cloud technologies."
+    "summary": "Passionate full-stack developer with 3+ years of experience building scalable web applications. Specialized in React, Next.js, and Drupal technologies."
   },
 
   "skills": {
     "programming_languages": [
       { "name": "JavaScript", "proficiency": "Expert", "years_experience": 5 },
-      { "name": "Python", "proficiency": "Advanced", "years_experience": 3 },
+      { "name": "Php", "proficiency": "Intermediate", "years_experience": 3 },
       { "name": "TypeScript", "proficiency": "Advanced", "years_experience": 2 }
     ],
     "frontend": [
@@ -26,9 +26,9 @@
       { "name": "HTML/CSS", "proficiency": "Expert", "years_experience": 5 }
     ],
     "backend": [
-      { "name": "Node.js", "proficiency": "Expert", "years_experience": 4 },
+      { "name": "Next.js", "proficiency": "Advanced", "years_experience": 3 },
       {
-        "name": "Express.js",
+        "name": "Node.js",
         "proficiency": "Advanced",
         "years_experience": 3
       },

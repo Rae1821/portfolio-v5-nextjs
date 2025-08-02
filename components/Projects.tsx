@@ -16,24 +16,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { LucideArrowRight } from 'lucide-react';
 
+// bg-[#038C7F]
+
 const Projects = () => {
   return (
     <section className="py-32">
       <div className="container mx-auto max-w-[1300px]">
         <h2 className="text-4xl font-bold mb-8">My Work</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center mx-auto">
-          {projects.map((project, index) => (
-            <ImageCard
-              key={index}
-              caption={`${project.title} - ${project.description}`}
-              imageUrl={`/images/${project.imageUrl}`}
-              className="w-full bg-[#038C7F]"
-            ></ImageCard>
-          ))}
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center mx-auto"></div>
         <div className="mt-12">
           {projects.map((project, index) => (
-            <Card className="w-[500px] bg-[#038C7F] h-full pt-0" key={index}>
+            <Card className="w-[500px] h-full pt-0" key={index}>
               <CardContent className="p-0">
                 <Image
                   src={`/images/${project.imageUrl}`}
